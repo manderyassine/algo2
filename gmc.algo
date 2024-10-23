@@ -1,0 +1,17 @@
+ALGORITHM Sentence 
+VAR
+
+    
+BEGIN
+function insertionSort(arr) 
+    for  i = 1 or i < arr.length i++ 
+        tab var  = arr[i]
+        var (j = i - 1)
+        while (j >= 0 and arr[j] > var) 
+            arr[j + 1] = arr[j]
+            j = j - 1
+        
+        arr[j + 1] = var
+    
+    return arr
+END
